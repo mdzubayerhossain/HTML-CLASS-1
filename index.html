@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zunayed | Learn HTML</title>
+    <link rel="icon" type="image/x-icon" href="zunu.jpg">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f4f4f4;
+            text-align: center;
+        }
+        h1 {
+            background-color: aquamarine;
+            font-size: 50px;
+            padding: 10px;
+            border-radius: 10px;
+        }
+        p {
+            background-color: blueviolet;
+            color: aliceblue;
+            padding: 15px;
+            border-radius: 10px;
+            display: inline-block;
+        }
+        img {
+            width: 150px;
+            height: 200px;
+            border-radius: 10px;
+            margin-top: 10px;
+        }
+        a {
+            display: inline-block;
+            margin: 10px;
+            padding: 10px;
+            background-color: #007BFF;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        a:hover {
+            background-color: #0056b3;
+        }
+        table {
+            width: 50%;
+            margin: 20px auto;
+            border-collapse: collapse;
+        }
+        td, th {
+            border: 1px solid black;
+            padding: 10px;
+        }
+        iframe {
+            width: 80%;
+            height: 400px;
+            border: none;
+            margin-top: 20px;
+        }
+        pre {
+            background: #222;
+            color: #fff;
+            padding: 10px;
+            border-radius: 5px;
+            display: inline-block;
+            text-align: left;
+        }
+        article {
+            background: #fff;
+            padding: 15px;
+            margin: 10px auto;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 60%;
+        }
+        .learn-html {
+            background: #fff;
+            padding: 20px;
+            margin-top: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: left;
+            width: 80%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .learn-html h2 {
+            color: #333;
+        }
+        .code-example {
+            background: #f9f9f9;
+            padding: 10px;
+            border-left: 5px solid #007BFF;
+            margin: 20px 0;
+        }
+    </style>
+</head>
+<body>
+    <h1>Zunayed Hossain Patowari</h1>
+    <p>I am a full-stack web <mark>Developer</mark> in our countryside.</p>
+    <img src="zunu.jpg" alt="Profile Picture">
+    <hr>
+    <a href="https://github.com/mdzubayerhossain">Github</a>
+    <nav>
+        <a href="about.html">About Me</a>
+    </nav>
+    <form>
+        <label for="fname">First name:</label>
+        <input type="text" id="fname" name="fname"><br>
+        <label for="lname">Last name:</label>
+        <input type="text" id="lname" name="lname">
+    </form>
+    <h1>H<sub>2</sub>O</h1>
+    <table>
+        <tr>
+          <td>Emil</td>
+          <td>Tobias</td>
+          <td>Linus</td>
+          <td>Name</td>
+        </tr>
+        <tr>
+          <td>16</td>
+          <td>14</td>
+          <td>10</td>
+          <td>Zunayed</td>
+        </tr>
+    </table>
+    <iframe src="https://zubayer-sigma.vercel.app/#" title="Portfolio"></iframe>
+
+    <div class="learn-html">
+        <h2>Learn HTML</h2>
+        <p>Below is an example of simple JavaScript addition:</p>
+        <pre><code>
+            &lt;script&gt;
+                let x = 5;
+                let y = 6;
+                let z = x + y;
+                console.log(z);
+            &lt;/script&gt;
+        </code></pre>
+        <p>Example of an HTML table:</p>
+        <pre><code>
+            &lt;table&gt;
+                &lt;tr&gt;
+                    &lt;th&gt;Name&lt;/th&gt;
+                    &lt;th&gt;Age&lt;/th&gt;
+                &lt;/tr&gt;
+                &lt;tr&gt;
+                    &lt;td&gt;John&lt;/td&gt;
+                    &lt;td&gt;25&lt;/td&gt;
+                &lt;/tr&gt;
+            &lt;/table&gt;
+        </code></pre>
+    </div>
+
+    <article>
+        <h2>Google Chrome</h2>
+        <p>Google Chrome is a web browser developed by Google, released in 2008. Chrome is the world's most popular web browser today!</p>
+    </article>
+    <article>
+        <h2>Mozilla Firefox</h2>
+        <p>Mozilla Firefox is an open-source web browser developed by Mozilla. Firefox has been the second most popular web browser since January 2018.</p>
+    </article>
+    <article>
+        <h2>Microsoft Edge</h2>
+        <p>Microsoft Edge is a web browser developed by Microsoft, released in 2015. Microsoft Edge replaced Internet Explorer.</p>
+    </article>
+
+    <div class="learn-html">
+        <h2>HTML5 Features</h2>
+        <div class="code-example">
+            <h3>Audio Element</h3>
+            <p>The <code>&lt;audio&gt;</code> element is used to embed sound content in documents.</p>
+            <pre><code>
+                &lt;audio controls&gt;
+                    &lt;source src="horse.ogg" type="audio/ogg"&gt;
+                    &lt;source src="horse.mp3" type="audio/mpeg"&gt;
+                    Your browser does not support the audio element.
+                &lt;/audio&gt;
+            </code></pre>
+        </div>
+        <div class="code-example">
+            <h3>Video Element</h3>
+            <p>The <code>&lt;video&gt;</code> element is used to embed video content in documents.</p>
+            <pre><code>
+                &lt;video width="320" height="240" controls&gt;
+                    &lt;source src="movie.mp4" type="video/mp4"&gt;
+                    &lt;source src="movie.ogg" type="video/ogg"&gt;
+                    Your browser does not support the video tag.
+                &lt;/video&gt;
+            </code></pre>
+        </div>
+        <div class="code-example">
+            <h3>Canvas Element</h3>
+            <p>The <code>&lt;canvas&gt;</code> element is used to draw graphics, on the fly, via scripting (usually JavaScript).</p>
+            <pre><code>
+                &lt;canvas id="myCanvas" width="200" height="100" style="border:1px solid #000000;"&gt;
+                    Your browser does not support the HTML5 canvas tag.
+                &lt;/canvas&gt;
+            </code></pre>
+        </div>
+        <div class="code-example">
+            <h3>Semantic Elements</h3>
+            <p>HTML5 introduces new semantic elements like <code>&lt;article&gt;</code>, <code>&lt;section&gt;</code>, <code>&lt;header&gt;</code>, <code>&lt;footer&gt;</code>, and <code>&lt;nav&gt;</code>.</p>
+            <pre><code>
+                &lt;article&gt;
+                    &lt;header&gt;
+                        &lt;h1&gt;Article Title&lt;/h1&gt;
+                        &lt;p&gt;Posted by Author&lt;/p&gt;
+                    &lt;/header&gt;
+                    &lt;p&gt;This is the content of the article.&lt;/p&gt;
+                    &lt;footer&gt;
+                        &lt;p&gt;This is the footer of the article.&lt;/p&gt;
+                    &lt;/footer&gt;
+                &lt;/article&gt;
+            </code></pre>
+        </div>
+    </div>
+</body>
+</html>
